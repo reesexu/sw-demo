@@ -1,5 +1,5 @@
 const cacheKey = 'v1'
-const cacheList = ['/', '/demo.jpg', '/index.css', '/index.js']
+const cacheList = ['/pwa/', '/pwa/demo.jpg', '/pwa/index.css', '/pwa/index.js']
 
 this.addEventListener('install', (event) => {
   event.waitUntil(
